@@ -1,0 +1,118 @@
+
+body{
+	background-image: url('media/images/body-img.png');
+	color: #000305;
+	font-size: 90%; /* base font-size = 14px */
+	font-family: GT Walsheim;
+	text-align: left;
+}
+
+
+a:link, a:visited { color: #5758BB ;}
+a:hover, a:active { color: #FDA7DF ;}
+
+.body {
+   margin: 0 auto;
+	width: 75%;
+}
+
+.mainHeader img  {
+	width: 100%;
+}
+
+.mainHeader nav {
+	background-color: pink;
+	height: 40px;
+}
+
+.mainHeader nav ul {
+	text-align: center;
+}
+
+
+.mainHeader nav ul li {
+	display: inline;
+}
+
+.mainHeader a:link, .mainHeader a:visited{
+	color: gray;
+	padding: 10px 40px;
+	display: inline-block; <!--- ??---> 
+	height: 15px;
+}
+.mainHeader a:hover, .mainHeader a:active{
+	color: white;
+	background-color:pink;
+}
+
+
+
+
+.mainContent {
+	width: 100%;
+	float: left;
+}
+
+.topContent {
+	background-color: #dfe6e9;
+	padding: 3%;
+	margin-top: 3%;
+	border-radius: 5px;
+	
+}
+
+.postInfo {
+	font-size: 90%;
+	color: #999;
+	font-style: italic;
+	
+}
+
+.footer p {
+	
+	text-align: center;
+	color:black;
+	width: 100%;
+}
+
+
+#about
+{
+	min-height: 330px;
+	background: #eaeaea;
+}
+
+#about #sidebox .left
+{
+	float: left;
+
+	height: 330px;
+}
+#about #sidebox .right
+{
+	float: right;
+	width: 634px;
+	height: 530px;
+}
+#about #sidebox .left img
+{
+	width: 370px;
+	height: 330px;
+	
+}
+#about #sidebox .right h1
+{
+	margin-left: 100px;
+	margin-top: 80px;
+	font-size: 45px;
+	color: #2d3134;
+	
+}
+#about #sidebox .right p
+{
+	margin-left: 100px;
+	margin-top: -15px;
+	color: #6c7279;
+	font-size: 15px;
+	
+}
